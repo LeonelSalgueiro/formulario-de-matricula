@@ -41,11 +41,16 @@
     /*Font Family*/
   --font-family: "Poppins", sans-serif;
   --font-family-secondary: "Schoolbell", cursive;
-  --h1: 700 32px/120% var(--font-family);
-  --h2: 700 24px/120% var(--font-family);
-  --h3: 700 20px/120% var(--font-family);
-  --h4: 700 16px/120% var(--font-family);
-  --text-xl: 600 40px/125% var(--font-family);
-  --text: 400 14px/140% var(--font-family);
-  --text-secondary: 400 20px/100% var(--font-family-secondary);
+  --h1: 700 2rem/1.2 var(--font-family);
+  --h2: 700 1.5rem/1.2 var(--font-family);
+  --h3: 700 1.25rem/1.2 var(--font-family);
+  --h4: 700 1rem/1.2 var(--font-family);
+  --text-xl: 600 2.5rem/1.25 var(--font-family);
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+  --text-secondary: 400 1.25rem/1.0 var(--font-family-secondary);
+}
+
+body {
+  overflow: hidden;
 }

@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+     /*Brand Color*/
+  --brand-light: #F67841;
+  --brand-mid: #F3541C;
+  --brand-dark: #E43A12;
+
+    /*Text Color*/
+  --text-primary: #292524;
+  --text-secondary: #57534E;
+  --text-tertiary: #8F8881;
+  --text-highlight: #E43A12;
+
+    /*Surface Color*/
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #FEE7D6;
+  --surface-disabled: #E7E5E4;
+
+    /*Stroke Color*/
+  --stroke-default: #D6D3D1;
+  --stroke-highlight: #F3541C;
+
+    /*Semantic Color*/
+  --semantic-error: #DC2626;
+
+    /*Supporting Color*/
+  --orange: #F9A474;
+  --yellow: #FEDF6F;
+  --green: #C7D78D;
+  --blue: #B8CEDC;
+  --violet: #C3B2E7;
+  --pink: #F682A5;
+
+    /*Font Family*/
+  --font-family: "Poppins", sans-serif;
+  --font-family-secondary: "Schoolbell", cursive;
+  --h1: 700 32px/120% var(--font-family);
+  --h2: 700 24px/120% var(--font-family);
+  --h3: 700 20px/120% var(--font-family);
+  --h4: 700 16px/120% var(--font-family);
+  --text-xl: 600 40px/125% var(--font-family);
+  --text: 400 14px/140% var(--font-family);
+  --text-secondary: 400 20px/100% var(--font-family-secondary);
+}

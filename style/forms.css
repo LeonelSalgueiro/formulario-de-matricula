@@ -12,6 +12,10 @@ fieldset {
   gap: 1.5rem;
 }
 
+fieldset + fieldset {
+  margin-top: 3rem;
+}
+
 legend {
   font: var(--h3);
   color: var(--text-primary);
@@ -92,6 +96,7 @@ select {
 }
 
 &:hover, &:has(input:focus) {
+  transition: 0.2s;
   border: 2px dashed var(--stroke-highlight);
   background-color: var(--surface-secondary);
 
@@ -104,6 +109,4 @@ select {
   stroke: var(--stroke-highlight);
 }
 }
-
-
 }

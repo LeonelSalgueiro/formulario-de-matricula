@@ -26,14 +26,15 @@ input, textarea, select {
   appearance: none;
   width: 100%;
   border-radius: 0.5rem;
-  border: 1px solid var(--stroke-default);
+  border: 2px solid transparent;
+  outline: 1px solid var(--stroke-default);
   padding: 0.75rem 1rem;
   font: var(--text);
 }
 
 input:focus, textarea:focus, select:focus, input[type="date"]:focus-within {
   outline: .25rem solid var(--surface-secondary);
-  border: 0.125rem solid var(--stroke-highlight);
+  border-color: var(--stroke-highlight);
   outline-offset: 0.1px;
 }
 
@@ -74,7 +75,8 @@ select {
 
 
 .dropzone {
- border: 1px dashed var(--stroke-default);
+ border: 2px dashed transparent;
+ outline: 1px dashed var(--stroke-default);
  border-radius: 0.25rem;
  display: grid;
  justify-items: center;
@@ -97,7 +99,8 @@ select {
 
 &:hover, &:has(input:focus) {
   transition: 0.2s;
-  border: 2px dashed var(--stroke-highlight);
+  outline-width: 0;
+  border-color: var(--stroke-highlight);
   background-color: var(--surface-secondary);
 
 & p {

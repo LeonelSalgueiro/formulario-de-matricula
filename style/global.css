@@ -43,7 +43,7 @@
   --font-family-secondary: "Schoolbell", cursive;
   --h1: 700 2rem/1.2 var(--font-family);
   --h2: 600 1.5rem/1.25 var(--font-family);
-  --h3: 700 1.25rem/1.2 var(--font-family);
+  --h3: 600 1rem/1.25 var(--font-family);
   --h4: 700 1rem/1.2 var(--font-family);
   --text-xl: 600 2.5rem/1.25 var(--font-family);
   --text: 400 1rem/1.5 var(--font-family);

@@ -169,3 +169,9 @@ label + .radio-wraper {
   }
 
 }
+
+.action-wraper {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
